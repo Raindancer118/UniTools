@@ -75,7 +75,7 @@ public class Transferleistung {
 
         // Ausgabe der Gesamtnote
         String formatierteGesamtNote = String.format("%.2f", gesamtNote);
-        JOptionPane.showMessageDialog(null, "Die Gesamtnote der eingegebenen Transferleistung ist: " + formatierteGesamtNote);
+        JOptionPane.showMessageDialog(null, "Die Gesamtnote der eingegebenen Transferleistung ist: " +Main.RED+Main.BOLD+ formatierteGesamtNote);
     }
 
     // Methode zur Eingabe von Noten mit JOptionPane
